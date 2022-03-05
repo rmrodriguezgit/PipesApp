@@ -41,6 +41,11 @@ export class MenuComponent implements OnInit {
       {
         label: 'Pipes personalizados',
         icon: 'pi pi-cog'
+      },
+      {
+        label: 'Mapas',
+        icon: 'pi pi-maps',
+        routerLink: 'mapas'
       }
   ];
   }
