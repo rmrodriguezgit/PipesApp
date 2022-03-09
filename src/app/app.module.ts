@@ -15,6 +15,7 @@ import localeEs from '@angular/common/locales/es-MX';
 import localeFr from '@angular/common/locales/fr';
 
 import { registerLocaleData } from '@angular/common'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 registerLocaleData (localeEs);
 registerLocaleData (localeFr);
@@ -28,6 +29,7 @@ registerLocaleData (localeFr);
     // PrimeNgModule,
     SharedModule,
     AppRouterModule,
+    BrowserAnimationsModule,
     VentasModule
   ],
   providers: [{
